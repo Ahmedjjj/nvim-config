@@ -1,11 +1,6 @@
 require("plugins")
-
 require("commands")
-
 require("keymaps")
-
 require("theme")
-
 require("options")
-
 require("lsp")
