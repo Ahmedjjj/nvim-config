@@ -1,1 +1,1 @@
-require('nvim-treesitter').install { 'rust', 'javascript', 'python', 'typescript' , 'lua' }
+require('nvim-treesitter').install { 'rust', 'javascript', 'python', 'typescript' , 'lua', 'bash', 'css', 'html','html_tags', 'dockerfile', 'git_config', 'git_rebase', 'gitattributes', 'gitcommit', 'gitignore', 'graphql', 'json', 'make', 'markdown', 'sql', 'ssh_config', 'terraform', 'vim', 'vimdoc','xml', 'yaml', 'toml'}
