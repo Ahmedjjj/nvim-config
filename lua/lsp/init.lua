@@ -1,2 +1,8 @@
 require("lsp.basedpyright")
 require("lsp.lua_ls")
+require("lsp.bashls")
+require("lsp.marksman")
+require("lsp.tombi")
+require("lsp.jinja_lsp")
+require("lsp.vtsls")
+require("lsp.ruff")
