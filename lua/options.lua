@@ -14,8 +14,8 @@ vim.o.cursorline = true -- Highlight the line where the cursor is on.
 vim.o.scrolloff = 10    -- Keep this many screen lines above/below the cursor.
 vim.o.list = true       -- Show <tab> and trailing spaces.
 vim.o.confirm = true
-vim.o.tabstop = 4       -- Render tabs as 4 characters wide
-vim.o.softtabstop = 4   -- See 4 spaces for a tab when editing
-vim.o.shiftwidth = 4    -- Number of spaces for indentation commands (e.g., >>)
+vim.o.tabstop = 2       -- Render tabs as 2 characters wide
+vim.o.softtabstop = 2   -- See 2 spaces for a tab when editing
+vim.o.shiftwidth = 2    -- Number of spaces for indentation commands (e.g., >>)
 
 vim.o.wildmenu = true
