@@ -1,3 +1,5 @@
+vim.keymap.set("n", "<leader>F", function() vim.lsp.buf.format({ async = true }) end)
+
 require("lsp.basedpyright")
 require("lsp.lua_ls")
 require("lsp.bashls")

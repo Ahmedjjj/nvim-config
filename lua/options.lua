@@ -17,3 +17,5 @@ vim.o.confirm = true
 vim.o.tabstop = 4       -- Render tabs as 4 characters wide
 vim.o.softtabstop = 4   -- See 4 spaces for a tab when editing
 vim.o.shiftwidth = 4    -- Number of spaces for indentation commands (e.g., >>)
+
+vim.o.wildmenu = true
