@@ -1,5 +1,6 @@
 vim.keymap.set("n", "<leader>F", function() vim.lsp.buf.format({ async = true }) end)
-
+vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, { desc = "LSP Rename" })
+-- Suggested mapping: Press 'Leader' then 'rn' to rename
 require("lsp.basedpyright")
 require("lsp.lua_ls")
 require("lsp.bashls")
