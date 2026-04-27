@@ -9,6 +9,7 @@ vim.pack.add({
 	'https://github.com/nvim-treesitter/nvim-treesitter',
 	'https://github.com/nvim-mini/mini.nvim',
 	'https://github.com/stevearc/oil.nvim',
+	'https://github.com/milanglacier/minuet-ai.nvim'
 })
 
 require("plugins.fzf-lua")
@@ -21,3 +22,4 @@ require("plugins.mini-pairs")
 require("plugins.mini-surround")
 require("plugins.oil")
 require("plugins.nvim-treesitter-objects")
+require("plugins.minuet")
