@@ -10,6 +10,6 @@ vim.keymap.set('n', '<leader>j', '<C-w>j')
 vim.keymap.set('n', '<leader>k', '<C-w>k')
 vim.keymap.set('n', '<leader>l', '<C-w>l')
 
-vim.keymap.set('n', '<S-Tab>', ':tabprevious<CR>', { desc = 'Previous tab' })
-vim.keymap.set('n', '<Tab>', ':tabnext<CR>', { desc = 'Next tab' })
+vim.keymap.set('n', '<C-j>', ':tabprevious<CR>', { desc = 'Previous tab' })
+vim.keymap.set('n', '<C-k>', ':tabnext<CR>', { desc = 'Next tab' })
 vim.keymap.set('t', '<C-Esc>', '<C-\\><C-n>', { desc = 'Enter terminal mode in terminal insert mode' })
